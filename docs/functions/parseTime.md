@@ -33,8 +33,6 @@ MMM Do YY
 [\(see more\)](https://momentjs.com)
 
 ### Example
-
 ```javascript
 @parseTime[@user[@authorID, createdTimestamp]]
 ```
-
