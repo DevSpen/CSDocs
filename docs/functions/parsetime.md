@@ -2,18 +2,18 @@
 
 Parses milliseconds into a readable format.
 
-### Usage
+## Usage
 
 ```text
 @parseTime[milliseconds, format]
 ```
 
-#### Breakdown
+### Breakdown
 
 * `milliseconds` - The milliseconds to parse. \| integer
 * `format` - How the date/time should be formatted, uses [momentJS](https://momentjs.com/). \| ?string
 
-### Formatting
+## Formatting
 
 ```javascript
 MMMM Do YYYY, h:mm:ss a
@@ -32,7 +32,9 @@ MMM Do YY
 
 [\(see more\)](https://momentjs.com)
 
-### Example
+## Example
+
 ```javascript
 @parseTime[@user[@authorID, createdTimestamp]]
 ```
+
