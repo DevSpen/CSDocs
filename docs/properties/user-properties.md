@@ -1,6 +1,11 @@
-# User Properties
+---
+description: Available user data.
+---
+
+# User
 
 * `avatarURL` - The link to the user's avatar. \| string
+* `badges` - The user's badges \(excludes paid badges\). \| string
 * `isBot` - Whether this user is a bot or not. \| boolean
 * `createdTimestamp` - The time when this user's account was created in milliseconds. \| integer
 * `defaultAvatarURL` - The user's default avatar URL. \| string

@@ -9,5 +9,7 @@
 
 ## Properties
 
-* [User Properties](properties/user-properties.md)
+* [User](properties/user-properties.md)
+* [Member](properties/member.md)
+* [Message](properties/message.md)
 
