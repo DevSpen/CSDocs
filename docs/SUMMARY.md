@@ -4,7 +4,7 @@
 
 ## Functions
 
-* [@parseTime](functions/parsetime.md)
+* [@parseTime](functions/parseTime.md)
 * [@url](functions/url.md)
 
 ## Properties
@@ -12,4 +12,3 @@
 * [User](properties/user-properties.md)
 * [Member](properties/member.md)
 * [Message](properties/message.md)
-
