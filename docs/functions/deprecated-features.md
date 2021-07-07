@@ -1,38 +1,33 @@
-# Deprecated Features
+# Características Obsoletas
 
-Features shown on this page are 'Deprecated'. Meaning, we don't recommend use of it, the feature can be abused/mistreated, or it's simply is unutilized.
+Las funciones que se muestran en esta página son "obsoletas". Esto significa que no recomendamos su uso, que la función puede ser abusada/maltratada, o que simplemente no se utiliza.
 
-> We do not take any responsibility for users/developers who abuse/misuse these functions.
+> No asumimos ninguna responsabilidad por los usuarios/desarrolladores que abusen/utilicen mal estas funciones.
 
-### Deprecated Functions List
+### Lista de funciones obsoletas
 
-#### Mass Functions
+#### Funciones masivas
 
-Preform several actions at a time.
+Realiza varias acciones a la vez.
 
 {% hint style="info" %}
-Channel/Role/User IDs should be separated using spaces.
+Los IDs de canales/roles/usuarios deben ser separados usando espacios.
 
-Example: `@massBan[type=ban/unban, 498435934984833 0239493249949494 230234984823833, To cool!]`
+Ejemplo: `@massBan[type=ban/unban, 498435934984833 0239493249949494 230234984823833, ¡A enfriar!]`
 {% endhint %}
 
 {% hint style="warning" %}
-Use these functions wisely, they could get your bot ratelimited. Be sure to put some limitations in place!
+Utiliza estas funciones con prudencia, ya que podrían hacer que tu bot fuera limitado. ¡Asegúrate de poner algunas limitaciones!
 {% endhint %}
 
 * `@massBan[type=ban/unban, userIDs, reason, guildID]`
 
-> Bans multiple users at once. Where 'type' and 'userIDs' are string values, 'reason' and 'guildID' are optional-string values.
+> Prohíbe a varios usuarios a la vez. Donde 'type' y 'userIDs' son valores de cadena, 'reason' y 'guildID' son valores de cadena opcionales.
 
 * `@massKick[userIDs, reason, guildID]`
 
-> Kicks multiple users at once. Where 'userIDs' is a string value, 'reason' and 'guildID' are optional-string values.
+> Expulsa a varios usuarios a la vez. Donde 'userIDs' es un valor de cadena, 'reason' y 'guildID' son valores de cadena opcionales.
 
 * `@massRole[type=grant/remove, roleID, userIDs, reason, guildID]`
 
-> Grants/removes a role from/to multiple users at once. Where 'type', 'roleID', 'userIDs' are string values, 'reason' and 'guildID' are optional-string values.
-
-
-
-
-
+> Concede/elimina un rol a varios usuarios a la vez. Donde 'type', 'roleID', 'userIDs' son valores de cadena, 'reason' y 'guildID' son valores de cadena opcionales.
