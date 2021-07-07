@@ -4,6 +4,7 @@
 
 ## Functions
 
+* [@parseTime](functions/parsetime.md)
 * [@url](functions/url.md)
 
 ## Properties
